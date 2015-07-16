@@ -84,7 +84,7 @@ By sub-classing `Component` and defining a *solve_nonlinear* (and
 models or implement wrappers for existing analysis codes.
 
 Variables are added to the class in the constructor (*__init__* method) via the
-*add_parameter*, *add_output* and *add_state* functions. For example:
+*add_param*, *add_output* and *add_state* functions. For example:
 
 ::
 
